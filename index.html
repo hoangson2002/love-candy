@@ -22,7 +22,7 @@
 </head>
 <body>
     <audio autoplay="autopaly">
-        <source src="music/I-Do-911.mp3" type="audio/mp3" />
+        <source src="./music/I-Do-911.mp3" type="audio/mp3" />
     </audio>
     <div id="main">
         <div id="error">Trình duyệt của bạn không được hỗ trợ. Để được hỗ trợ liên hệ hoangson.onew@gmail.com. Hoặc sử
@@ -194,7 +194,7 @@
                 together.setMinutes(0);
                 together.setSeconds(0);
                 together.setMilliseconds(0);
-
+                console.log(together)
                 $("#code").show().typewriter();
                 $("#clock-box").fadeIn(500);
                 while (true) {
